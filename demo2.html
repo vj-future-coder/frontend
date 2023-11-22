@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            margin: 0px;
+            padding: 0px;
+        }
+        table{
+            text-align: center;
+            margin-left: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            column-gap: 20px;
+            border: 2px crimson;
+            width: 50%px;
+            height: 300px;
+            background-color: rgb(205, 225, 197);
+        }
+        table input:hover{
+            border-radius: 10px;
+        }
+        table tr th{
+            margin: 15px;
+            padding: 10px;
+        }
+        h1{
+            padding-left: 50px;
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fill The Personal details</h1>  
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th><input type="text"></th>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <th><input type="text"></th>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <th><input type="radio" id="radio1" name="optradio" value="Male" checked>Male
+                <input type="radio" id="radio1" name="optradio" value="Male" checked>FeMale
+                <input type="radio" id="radio1" name="optradio" value="Male" checked>Other
+            </th>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <th><input type="email"></th>
+        </tr>
+        <tr>
+            <th>Date of birth</th>
+            <th><input type="date"></th>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <th><textarea name="" id="" cols="30" rows="10"></textarea> </th>
+    </tr>
+    <th></th>
+    <th><input type="submit"></th>
+</tr>
+    </table>
+</body>
+</html>
